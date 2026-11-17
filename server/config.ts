@@ -1,3 +1,5 @@
+import 'dotenv/config';
+
 export const config = {
   port: Number(process.env.PORT ?? 3000),
   geminiModel: process.env.GEMINI_MODEL ?? 'gemini-3.8-flash',
